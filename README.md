@@ -130,8 +130,10 @@ The project was developed using GitHub version control with multiple commits to 
 ## Results
 
 The Intelligent Scheduler demonstrates improved performance in terms of average waiting time when compared to the traditional FCFS algorithm for most test cases.
+![Image Description](images/fcfs results.png)
 
 The Gantt chart visualization helps in clearly understanding CPU execution order.
+![Image Description](images/it sc results.png)
 
 ---
 
