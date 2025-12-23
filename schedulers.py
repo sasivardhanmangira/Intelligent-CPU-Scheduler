@@ -40,7 +40,7 @@ def intelligent_scheduler(processes):
                 ready.append(p)
 
         if not ready:
-            time += 0
+            time += 1
             continue
 
         # Calculate scores for all ready processes
@@ -75,4 +75,5 @@ def average_metrics(processes):
     """Calculate average waiting time and turnaround time"""
     avg_wt = sum(p.waiting_time for p in processes) / len(processes)
     avg_tat = sum(p.turnaround_time for p in processes) / len(processes)
+
     return avg_wt, avg_tat
